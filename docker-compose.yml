@@ -2,10 +2,11 @@ version: '2'
 services:
     node:
         image: node
-        container_name: node
+        container_name: ember-lt
         tty: true
         stdin_open: true
         ports:
-            - "3000:3000"
+            - "49152:49152"
+            - "4200:4200"
         volumes:
             - ".:/workspace"
