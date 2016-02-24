@@ -1,0 +1,11 @@
+version: '2'
+services:
+    node:
+        image: node
+        container_name: node
+        tty: true
+        stdin_open: true
+        ports:
+            - "3000:3000"
+        volumes:
+            - ".:/workspace"
