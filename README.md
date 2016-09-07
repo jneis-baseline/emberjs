@@ -1,5 +1,5 @@
-# ember-lt
-code for ember lt
+# lt-emberjs
+demo code for lightning talk about ember.js
 
 ### [Scaffolding](docs/scaffolding.md)
 
